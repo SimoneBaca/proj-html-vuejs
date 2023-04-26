@@ -8,3 +8,14 @@
     width: 80%;
     margin: auto;
 }
+body {
+    font-family: 'Roboto', sans-serif;
+}
+// Lists
+ul {
+    list-style-type: none;
+
+    a {
+        text-decoration: none;
+    }
+}
