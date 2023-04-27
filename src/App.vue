@@ -1,10 +1,11 @@
 <script>
 import Header from "./components/Header.vue";
-
+import Jumbotron from "./components/Jumbotron.vue";
 export default {
   name: "App",
   components: { 
     Header,
+    Jumbotron,
   },
     data: function() {
     return {
@@ -43,6 +44,7 @@ export default {
 <template>
    <div id="app">
     <Header :linksArray="links" :service="callService"/>
+    <Jumbotron />
    </div>
 </template>
 
