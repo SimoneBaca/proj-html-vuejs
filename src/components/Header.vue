@@ -64,7 +64,7 @@ header {
         
         li {
             padding-left: 30px;
-            font-size: 19px;
+            font-size: 15px;
             display: flex;
             align-items: center;
             
