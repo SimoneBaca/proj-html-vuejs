@@ -1,41 +1,51 @@
 <script>
 import Header from "./components/Header.vue";
 import Jumbotron from "./components/Jumbotron.vue";
+import Main from "./components/Main.vue";
+
 export default {
   name: "App",
   components: { 
     Header,
     Jumbotron,
+    Main,
   },
     data: function() {
     return {
       links: [
         {
           text: 'Home',
-          url: '#'
+          url: '#',
+          dropDown: true
         },
         {
           text: 'Services',
-          url: '#'
+          url: '#',
+          dropDown: true
         },
         {
           text: 'Why Us',
-          url: '#'
+          url: '#',
+          dropDown: false
         },
         {
           text: 'Case Studies',
-          url: '#'
+          url: '#',
+          dropDown: false
         },
         {
           text: 'About',
-          url: '#'
+          url: '#',
+          dropDown: false
         },
         {
           text: 'Blog',
-          url: '#'
+          url: '#',
+          dropDown: false
         }
       ],
-      callService: '(555) 802-1234'
+      callService: '(555) 802-1234',
+      
     }
   },
 };  
@@ -45,9 +55,11 @@ export default {
    <div id="app">
     <Header :linksArray="links" :service="callService"/>
     <Jumbotron />
+    <Main />
    </div>
 </template>
 
 <style lang="scss">
 @import './style/generals';
+@import './style/commons';
 </style>
