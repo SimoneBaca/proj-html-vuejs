@@ -1,5 +1,6 @@
 <script>
   import ExpertConsultant from "./Expertconsultant.vue";
+
   export default {
     name: "Jumbotron",
     components: {
@@ -62,6 +63,7 @@
       }
     }
     .expert-consultant {
+      padding-left: 50px;
       position: relative;
       top: -20px;
     }
