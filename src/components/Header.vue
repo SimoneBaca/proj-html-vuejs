@@ -13,7 +13,7 @@ export default {
     <header>
         <div class="logo">
             <a href="#">
-                <img src="../assets/img/avada-marketing-logo.png" alt="logo AvadaConsultant">
+                <img src="../assets/images/avada-marketing-logo.png" alt="logo AvadaConsultant">
             </a>
         </div>
 
@@ -77,6 +77,7 @@ header {
     nav a:hover {
         color: $primary-color;
         border-bottom: 2px solid $primary-color ;
+        padding-bottom: 3px;
     }
     .services {
         padding-left: 50px;
@@ -84,6 +85,10 @@ header {
         i {
             color: orange;
             padding-right: 18px;
+        }
+        .secondary-button:hover {
+            color: white;
+            background-color: $primary-color;
         }
     }
 }

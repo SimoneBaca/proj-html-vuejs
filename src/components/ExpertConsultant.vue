@@ -7,7 +7,7 @@ export default {
 <template>
     <div class="expert-consultant">
         <!-- Expert -->
-        <img src="../assets/img/marketing-consultant-expert.jpg" alt="expert image">
+        <img src="../assets/images/marketing-consultant-expert.jpg" alt="expert image">
 
         <div class="name">
             Richard Madsen
@@ -46,7 +46,6 @@ export default {
 @import '../style/generals.scss';
 .expert-consultant {
     text-align: center;
-    margin-left: 100px;
     height: 650px;
     width: 480px;
     border-radius: 15px;

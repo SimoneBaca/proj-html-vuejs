@@ -1,5 +1,5 @@
 <template>
-    <div class="content">
+    <div class="container">
         <div class="row" :class="{'reverse' :benefitsArray.isReverse}">
 
             <!-- Logo -->
@@ -16,7 +16,7 @@
 
                 <h3>{{benefitsArray.title}}</h3>
 
-                <p>{{benefitsArray.subTitle}}</p>
+                <p class="p-section">{{benefitsArray.subTitle}}</p>
 
                 <a class="primary-button" href="#">
                     {{benefitsArray.button}}
@@ -64,7 +64,6 @@ export default {
         }
         p {
             font-size: 22px;
-            padding-bottom: 25px;
         }
     }
 }

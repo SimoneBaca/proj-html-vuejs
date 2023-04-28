@@ -17,9 +17,9 @@
           <div class="area-text">
             <h2>Unlock Your Online Growth Potential</h2>
             <p>Online Marketing to secure customer retention, leads, and sales. We focus on the bigger picture.</p>
-            <div class="white-button">
+            <a class="white-button" href="#">
               Our Services <i class="fa-solid fa-arrow-right"></i>
-            </div>
+            </a>
           </div>
           <!-- Expert consultant -->
           <div class="expert-consultant">
@@ -34,7 +34,7 @@
   <style lang="scss" scoped>
   @import '../style/variable.scss';
   .jumbotron {
-    background-image: url('../assets/img/marketing-intro.jpg');
+    background-image: url('../assets/images/marketing-intro.jpg');
     background-repeat: no-repeat;
     background-position-y: top;
     background-size: cover;
@@ -57,10 +57,16 @@
       }
       .white-button {
         margin-top: 15px;
+
         i {
           padding-left: 10px;
         }
       }
+      .white-button:hover {
+      background-color: rgba(0, 0, 0, 0);
+      color: white;
+      border: 1px solid white;
+    }
     }
     .expert-consultant {
       padding-left: 50px;

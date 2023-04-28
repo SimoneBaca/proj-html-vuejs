@@ -1,10 +1,9 @@
 <template>
-    <div class="brands-area">
+     <div class="container brands-area">
 
-        <h2>Some Brands We Work With</h2>
-
-        <p>Quisque aliquet, libero consequat elementum convallis</p>
-
+        <h2 class="title-section">Some Brands We Work With</h2>
+        <p class="p-section">Quisque aliquet, libero consequat elementum convallis</p>
+       
         <ul class="brands-list">
             <li v-for="(brands, index) in brands" :key="index">
                 <img :src="brands.thumb" :alt="brands.alt">
@@ -22,7 +21,6 @@ export default {
             brands: [
                 {
                     name: 'abstract',
-          
                     alt: 'logo abstract'
                 },
                 {
@@ -53,14 +51,12 @@ export default {
 
 
 <style lang="scss" scoped>
+@import '../style/commons.scss';
 .brands-area {
     padding-top: 200px;
     text-align: center;
-    h2 {
-        font-size: 50px;
-    }
+
     p {
-        font-size: 20px;
         padding-top: 20px;
     }
     ul {
