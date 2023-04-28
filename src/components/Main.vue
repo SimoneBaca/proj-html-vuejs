@@ -1,18 +1,20 @@
 <script>
 import SingleRowBenefit from "./SingleRowBenefit.vue";
 import BrandsWeWork from "./BrandsWeWork.vue";
+import Leads from "./Leads.vue";
 
 export default {
   name: "Main", 
   components: {
     SingleRowBenefit,
     BrandsWeWork,
+    Leads,
   },
   data: function() {
     return {
         benefits: [
             {
-               
+             
                 upTitle: 'Business Growth',
                 title: 'Increase Brand Awareness',
                 subTitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor placerat luctus. Nullam sit amet ante sed orci convallis gravida et at massa.',
@@ -47,6 +49,7 @@ export default {
 
 <SingleRowBenefit v-for="(benefits, index) in benefits" :key="index" :benefitsArray="benefits" />
 <BrandsWeWork />
+<Leads />
 </main>
 </template>
 
