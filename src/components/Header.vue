@@ -58,7 +58,7 @@ header {
     justify-content: center;
     align-items: center;
     height: 100px;
-    background-color:lime;
+   
      ul {
         display: flex;
         
