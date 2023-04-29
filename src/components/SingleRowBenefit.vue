@@ -40,8 +40,7 @@ export default {
 
 
 <style lang="scss" scoped>
-// @import '../style/variables';
-// @import '../style/generals';
+
 .row {
     display: flex;
     align-items: center;
