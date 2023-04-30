@@ -4,6 +4,8 @@ import BrandsWeWork from "./BrandsWeWork.vue";
 import Leads from "./Leads.vue";
 import References from "./References.vue";
 import Testimonial from "./Testimonial.vue";
+import MarketingResources from "./MarketingResources.vue";
+import ThingsHappen from "./ThingsHappen.vue";
 
 export default {
   name: "Main", 
@@ -13,6 +15,8 @@ export default {
     Leads,
     References,
     Testimonial,
+    MarketingResources,
+    ThingsHappen,
   },
   data: function() {
     return {
@@ -56,6 +60,8 @@ export default {
 <Leads />
 <References/>
 <Testimonial/>
+<MarketingResources />
+<ThingsHappen/>
 </main>
 </template>
 
